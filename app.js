@@ -8,7 +8,7 @@ async function copyText(e) {
     console.log(link)
     try {
         await navigator.clipboard.writeText(link)
-        alert("Copied the text: " + link)
+        alert("تم نسخ الرابط: " + link)
     } catch (err) {
         console.error(err)
     }
